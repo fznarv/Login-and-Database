@@ -26,8 +26,8 @@ class Login:
 
                             print(f'Welcome {Lwelcome.username}!')
                 else:
-                           
-            except ValueError:
-                print('Yikes')
+            except FileNotFoundError:
+                print('Wrong!')
+               
             
 
